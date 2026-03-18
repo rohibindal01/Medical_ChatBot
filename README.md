@@ -39,7 +39,7 @@ The application maintains chat history using session storage and provides a simp
 
 ## 🏗️ Flow Architecture
 
-'''
+```
 User Input (Browser)
         ↓
 Flask Route (/)
@@ -55,7 +55,7 @@ Response Generated
 Stored in Session
         ↓
 Rendered in UI (index.html)
-'''
+```
 
 ---
 
