@@ -36,26 +36,26 @@ The application maintains chat history using session storage and provides a simp
 - HTML Rendering Enhancements: MarkupSafe
 
 ---
-'''
+
 ## 🏗️ Flow Architecture
 
+'''
 User Input (Browser)
-↓
+        ↓
 Flask Route (/)
-↓
+        ↓
 Session Management (stores messages)
-↓
+        ↓
 create_qa_chain()
-↓
+        ↓
 LLM + Vector Store Processing
-↓
+        ↓
 Response Generated
-↓
+        ↓
 Stored in Session
-↓
+        ↓
 Rendered in UI (index.html)
 '''
-
 
 ---
 
